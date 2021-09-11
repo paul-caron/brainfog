@@ -1,6 +1,6 @@
 //author: Paul Caron
 //date: september 2021
-//faster version of bf interpreter
+//faster version of bf interpreter compared to previous file
 //loops are using a "jumps table" in this one
 
 #include <fstream>
