@@ -1,3 +1,6 @@
+//Author: Paul Caron
+//Date : September 2021
+//Brainfuck interpreter with basic RLE compression
 
 #include <fstream>
 #include <iterator>
