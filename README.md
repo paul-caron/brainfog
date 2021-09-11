@@ -1,5 +1,4 @@
 # brainfog
-brainfuck stuff
 
 hey! you there! yes you!
 
