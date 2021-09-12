@@ -52,7 +52,6 @@ string compress(string s){
 void compile(string program, ofstream & file){
     for(int i; i<program.size(); ++i){
         char instruction = program[i];
-        here:
         switch (instruction){
             case '+': file << "*dataPtr += 1;" << endl; break;
             case '-': file << "*dataPtr -= 1;" << endl; break;
