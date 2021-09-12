@@ -1,3 +1,18 @@
+/*
+author: Paul Caron
+date: Sept 2021
+a brainfuck compiler to c
+use like:
+./a.out filename.bf
+
+then it will create a file named "compiled.c"
+
+compile this file like
+gcc compiled.c -o compiled -O3
+
+enjoy
+*/
+
 
 #include <fstream>
 #include <iterator>
