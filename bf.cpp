@@ -37,7 +37,7 @@ inline void jumpBackwardNZero(){
         }
     }
 }
-inline void execute(const char & i,int n=1){
+void execute(const char & i,int n=1){
     switch(i){
      case '<': decrementDP(n);break;
      case '>': incrementDP(n);break;
